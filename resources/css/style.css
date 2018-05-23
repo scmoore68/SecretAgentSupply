@@ -199,5 +199,39 @@ nav a {
   .gadget.watch {
     display: none;
   }
+  h2 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  h4 {
+    font-size: 0.77rem;
+    font-weight: bold;
+  }
+  .banner-text {
+      width: 20rem;
+      padding: 1rem 2rem;
+      position: relative;
+      top: 10rem;
+  }
+  .banner {
+    height: 15rem;
+  }
+  .info-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 3rem 0 0 0;
+  }
+  .info {
+    width: 90%;
+    padding-right: 0;
+  }
+  .info.mobile {
+    margin-top: 0.5rem;
+  }
+  .footer {
+    text-align: center;
+  }
+
 
 }
