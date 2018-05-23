@@ -177,7 +177,7 @@ nav a {
 
 /* Screen size changes for 1024px (tablet) screens */
 
-@media only screen and (max-width: 1024px)
+@media only screen and (min-width: 470px) and (max-width: 1024px)
 {
   .gadget {
     width: 47%;
@@ -192,15 +192,12 @@ nav a {
 {
   .gadget {
     width: 90%;
-    background-color: purple;
   }
   .gadget.glasses {
     display: none;
-    background-color: green;
   }
   .gadget.watch {
     display: none;
-    background-color: blue;
   }
 
 }
