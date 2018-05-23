@@ -91,6 +91,8 @@ nav a {
   display: none;
 }
 
+/* Nav display changes for smaller screens */
+
 @media only screen and (max-width: 1024px)
 {
   nav ul {
@@ -173,30 +175,32 @@ nav a {
   margin-top: 4rem;
 }
 
-/* Screen size change for 1024px (tablet) width */
+/* Screen size changes for 1024px (tablet) screens */
+
 @media only screen and (max-width: 1024px)
 {
-  /* Hide menu options for tablet and mobile screens */
-  nav ul {
-    display: none;
-  }
-  .tablet-nav {
-    display: block;
-    text-align: center;
-  }
-
-  /* Gadget display changes for tablets */
   .gadget {
     width: 47%;
   }
-  .gadget .glasses {
+  .gadget.glasses {
     display: none;
   }
 }
 
-
-/* Screen size change for 470px (mobile) width */
+/* Screen size changes for 470px (mobile) width */
 @media only screen and (max-width: 470px)
 {
+  .gadget {
+    width: 90%;
+    background-color: purple;
+  }
+  .gadget.glasses {
+    display: none;
+    background-color: green;
+  }
+  .gadget.watch {
+    display: none;
+    background-color: blue;
+  }
 
 }
